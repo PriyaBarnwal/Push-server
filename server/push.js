@@ -38,3 +38,5 @@ module.exports.sendNotification =(message) => {
     store.put('subscriptions', subscriptions)
   })
 }
+
+//test with: curl -X POST -d "Welcome to subscription"  http://localhost:3000/push
