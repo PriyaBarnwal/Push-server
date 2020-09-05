@@ -1,0 +1,18 @@
+{
+  "name": "mypush-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "vapid": "node_modules/web-push/src/cli.js generate-vapid-keys --json > server/vapid.json"
+  },
+  "author": "Priyanka",
+  "license": "ISC",
+  "dependencies": {
+    "node-storage": "0.0.9",
+    "nodemon": "^2.0.4",
+    "urlsafe-base64": "^1.0.0",
+    "web-push": "^3.4.4"
+  }
+}

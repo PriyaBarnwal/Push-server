@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialScale=1">
+    <title>Push notifification demo</title>
+  </head>
+  <style>
+    body {
+      padding: 0 1rem;
+      text-align: center;
+    }
+    button {
+      padding: 0.5rem 3rem;
+      font-size: 2rem;
+      background: #66DE93;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    #unsubscribe button {
+      background: #EB3F2F;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+  <body>
+    <h1>Push Notifications Demo</h1>
+    <div id="subscribe">
+      <p><i>Press this to subscribe</i></p>
+      <button>Subscribe</button>
+    </div>
+    <div id="unsubscribe" class="hidden">
+      <p><i>Press this to unsubscribe</i></p>
+      <button>Unsubscribe</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
